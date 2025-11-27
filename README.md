@@ -98,14 +98,6 @@ This project can be deployed on:
 - AWS Amplify
 - Any platform supporting Next.js
 
-## License
 
-MIT License
 
-## Contributors
-
-- Sukjit Singh (@Sukhjitsingh2) - Lead Developer
-- N SriDatta (@NSriDatta16)
-- Bhavik Gandhi (@probablybhavik)
-- Sameer Keshavani (@sameerkeshvani)
 

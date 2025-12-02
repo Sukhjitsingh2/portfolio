@@ -1,14 +1,12 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Code, Database, Cloud, Shield, Users, BarChart, TestTube, Layout } from 'lucide-react'
+import { Code, Database, Cloud, Shield, Users, BarChart, TestTube, Layout } from 'lucide-react'
 
 const teamMembers = [
   {
     name: 'Tanzima',
     role: 'Team Lead / Back-end Developer',
-    id: '500238212',
-    github: '',
     contributions: [
       'Team Leadership & Coordination',
       'Backend Architecture Design',
@@ -23,8 +21,6 @@ const teamMembers = [
   {
     name: 'Sameer',
     role: 'Team Lead / Front-end Developer',
-    id: '500239806',
-    github: 'sameerkeshvani',
     contributions: [
       'Team Leadership & Coordination',
       'Frontend Architecture',
@@ -39,8 +35,6 @@ const teamMembers = [
   {
     name: 'Om',
     role: 'Data Analyst',
-    id: '500228172',
-    github: '',
     contributions: [
       'Data Analysis & Insights',
       'Performance Metrics',
@@ -55,8 +49,6 @@ const teamMembers = [
   {
     name: 'Abdullah',
     role: 'Data Scientist',
-    id: '500236394',
-    github: '',
     contributions: [
       'Machine Learning Models',
       'Data Processing',
@@ -71,8 +63,6 @@ const teamMembers = [
   {
     name: 'Sukhjit Singh',
     role: 'Full Stack Developer',
-    id: '500237727',
-    github: 'Sukhjitsingh2',
     contributions: [
       'Full Stack Development',
       'Backend API Development',
@@ -87,8 +77,6 @@ const teamMembers = [
   {
     name: 'Riya Shah',
     role: 'Data Scientist',
-    id: '500236809',
-    github: '',
     contributions: [
       'Face Recognition Algorithms',
       'Computer Vision Models',
@@ -103,8 +91,6 @@ const teamMembers = [
   {
     name: 'Sri Datta',
     role: 'Back-end Tester',
-    id: '500237146',
-    github: 'NSriDatta16',
     contributions: [
       'Backend Testing',
       'API Testing',
@@ -119,8 +105,6 @@ const teamMembers = [
   {
     name: 'Varisdeep Singh',
     role: 'Front-end Developer',
-    id: '500245515',
-    github: '',
     contributions: [
       'Frontend Development',
       'Component Building',
@@ -189,19 +173,7 @@ export default function Team() {
                 </motion.div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-white mb-1">{member.name}</h3>
-                  <p className="text-primary-400 mb-1">{member.role}</p>
-                  <p className="text-gray-500 text-sm mb-2">ID: {member.id}</p>
-                  {member.github && (
-                    <a
-                      href={`https://github.com/${member.github}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center space-x-1 text-gray-400 hover:text-primary-400 transition-colors"
-                    >
-                      <Github className="w-4 h-4" />
-                      <span className="text-sm">@{member.github}</span>
-                    </a>
-                  )}
+                  <p className="text-primary-400">{member.role}</p>
                 </div>
               </div>
 

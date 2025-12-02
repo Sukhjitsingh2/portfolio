@@ -3,6 +3,7 @@ import About from '@/components/About'
 import Team from '@/components/Team'
 import Projects from '@/components/Projects'
 import Expertise from '@/components/Expertise'
+import Documents from '@/components/Documents'
 import Contact from '@/components/Contact'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Expertise />
       <Projects />
+      <Documents />
       <Team />
       <Contact />
       <Footer />

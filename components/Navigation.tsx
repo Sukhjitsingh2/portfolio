@@ -22,6 +22,7 @@ export default function Navigation() {
     { name: 'About', href: '#about' },
     { name: 'Expertise', href: '#expertise' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Documents', href: '#documents' },
     { name: 'Team', href: '#team' },
     { name: 'Contact', href: '#contact' },
   ]

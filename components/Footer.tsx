@@ -30,6 +30,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#documents" className="text-gray-400 hover:text-primary-400 text-sm transition-colors">
+                  Documents
+                </a>
+              </li>
+              <li>
                 <a href="#team" className="text-gray-400 hover:text-primary-400 text-sm transition-colors">
                   Team
                 </a>

@@ -82,7 +82,7 @@ export default function Projects() {
                 </span>
               ))}
             </div>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-4">
               <a
                 href="https://github.com/AIP-F25-2/VigilantEye"
                 target="_blank"
@@ -91,6 +91,15 @@ export default function Projects() {
               >
                 <Github className="w-5 h-5" />
                 <span>View on GitHub</span>
+              </a>
+              <a
+                href="https://vigilanteye-app.politepond-67bfac4f.eastus.azurecontainerapps.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-primary-600 to-purple-600 hover:from-primary-700 hover:to-purple-700 rounded-lg transition-colors"
+              >
+                <ExternalLink className="w-5 h-5" />
+                <span>Visit Website</span>
               </a>
             </div>
           </motion.div>

@@ -188,6 +188,11 @@ export default function Contact() {
                   </a>
                 </li>
                 <li>
+                  <a href="#documents" className="text-gray-400 hover:text-primary-400 transition-colors">
+                    Project Documents
+                  </a>
+                </li>
+                <li>
                   <a href="#team" className="text-gray-400 hover:text-primary-400 transition-colors">
                     Our Team
                   </a>
